@@ -14,10 +14,10 @@ jobs:
 
     steps:
       # Checks repo under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3 # Güncellenmiş sürüm
+      - uses: actions/checkout@v3
 
       # Generates the snake  
-      - uses: Platane/snk@v3.1.0 # Güncellenmiş sürüm
+      - uses: Platane/snk@v3.1.0
         id: snake-gif
         with:
           github_user_name: zeyynepp0
@@ -29,17 +29,18 @@ jobs:
 
       # Push changes
       - name: Push changes
-        uses: ad-m/github-push-action@v0.6.0 # Güncellenmiş sürüm
+        uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
           force: true
 
       # Deploy to GitHub Pages
-      - uses: actions/github-pages@v2 # Güncellenmiş sürüm
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
           # the output branch we mentioned above
-          target_branch: output
-          build_dir: dist
+          deploy_branch: output
+          folder: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
