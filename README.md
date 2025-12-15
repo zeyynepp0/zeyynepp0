@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Zeynep CAN</h1>
-<h3 align="center">Computer Engineering Student (3/4)</h3>
+<h3 align="center">Computer Engineering Student (4/4)</h3>
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=zeyynepp0" alt="zeyynepp0" /></a> </p>
 
 - 🔭 I’m currently working on **.net technologies**
