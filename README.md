@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Zeynep CAN</h1>
 <h3 align="center">Computer Engineering Student (4/4)</h3>
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src=https://avatars.githubusercontent.com/u/123462399?v=4" alt="zeyynepp0" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src=" alt="zeyynepp0" /></a> </p>
 
 - 🔭 I’m currently working on **.net technologies**
 - 📫 How to reach me **zeynepcan0034@gmail.com**
